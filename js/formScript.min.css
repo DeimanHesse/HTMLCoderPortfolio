@@ -1,0 +1,1 @@
+"use strict";async function formSend(e){e.preventDefault();let t=new FormData(form),n=await fetch("sendmail.php",{method:"POST",body:t});if(n.ok){let e=await n.json();alert(e.message),formPreview.innerHTML="",form.reset()}else alert("Ошибка")}document.addEventListener("DOMContentLoaded",(function(){document.getElementById("form").addEventListener("submit",formSend)}));

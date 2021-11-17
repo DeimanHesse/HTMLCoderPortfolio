@@ -1,0 +1,1 @@
+function parallax(e){this.querySelectorAll(".layer").forEach(t=>{let a=t.getAttribute("data-speed");t.style.transform="translateX("+(e.clientX-500)*a/50+"px)"})}document.addEventListener("mousemove",parallax);

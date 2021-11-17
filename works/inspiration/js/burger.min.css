@@ -1,0 +1,1 @@
+let menuPageBurger=document.querySelector(".header__burger"),menuPageBody=document.querySelector(".header__hide-menu");menuPageBurger.addEventListener("click",(function(e){menuPageBurger.classList.toggle("_active"),menuPageBody.classList.toggle("_active")}));

@@ -1,0 +1,1 @@
+const filterBox=document.querySelectorAll(".box");document.querySelector(".gallery-projects__menu").addEventListener("click",e=>{if("LI"!==e.target.tagName)return!1;let t=e.target.dataset.f;filterBox.forEach(e=>{setTimeout(1e3),e.classList.remove("hide2"),e.classList.contains(t)||"all"===t||e.classList.add("hide2")})});
